@@ -2,17 +2,21 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import { useSelector } from 'react-redux'
 
-function App() {
+
+function App(props) {
   const [count, setCount] = useState(0)
-
+  const data = useSelector(state => { console.log(state, props)})
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
+        {data}
+        {}
+        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
-        <a href="https://react.dev" target="_blank">
+        <a href="https://react.dev" target="_blank" rel="noreferrer">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
