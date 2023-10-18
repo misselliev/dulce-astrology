@@ -11,10 +11,13 @@ const Home = () => {
           <p className="mb-8 leading-relaxed text-indigo-300">
             Welcome to <span className="italic">Unleash the Stars: Astrology&apos;s Best Friend!</span> Join us on an
             extraordinary cosmic journey guided by a tiny but mighty celestial explorer, our resident Chihuahua
-            astrologer, Madame Dulce. Discover the enchanting world of astrology through the unique perspective of a
-            four-legged friend, as we delve into the mysteries of the zodiac and explore the interconnected web of the
-            universe. Get ready for an astrology experience like no other, where the wisdom of the stars meets the charm
-            of our pint-sized pundit. It&apos;s time to let the celestial paws lead the way to your destiny!
+            astrologer, Madame Dulce.
+            <br />
+            Discover the enchanting world of astrology through the unique perspective of a four-legged friend, as we
+            delve into the mysteries of the zodiac and explore the interconnected web of the universe.
+            <br />
+            Get ready for an astrology experience like no other, where the wisdom of the stars meets the charm of our
+            pint-sized pundit. It&apos;s time to let the celestial paws lead the way to your destiny!
           </p>
           <div className="flex justify-center">
             <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
