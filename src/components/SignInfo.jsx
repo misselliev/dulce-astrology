@@ -1,6 +1,3 @@
-
 const SignInfo = () => {
-    return (
-        
-    )
-}
+  return !tw;
+};
