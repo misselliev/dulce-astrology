@@ -1,0 +1,136 @@
+{
+  "signs": {
+    "aries": {
+      "name": "Aries",
+      "rulerPlanet": "Mars",
+      "element": "Fire",
+      "dates": {
+        "start": "March 21",
+        "end": "April 19"
+      },
+      "funFacts": "Aries is the first sign of the zodiac and is known for its adventurous and energetic nature.",
+      "description": "Aries individuals are known for their leadership qualities and determination. They are enthusiastic and often take the initiative in new ventures. With a natural drive to excel, Aries signs thrive in competitive environments and enjoy challenges that allow them to demonstrate their strength and resilience. These individuals are trailblazers, always seeking new opportunities and pushing the boundaries of what's possible. Aries signs are fearless and are never afraid to venture into the unknown. Their impulsive nature is balanced by their unwavering confidence and unwavering commitment to their goals."
+    },
+    "taurus": {
+      "name": "Taurus",
+      "rulerPlanet": "Venus",
+      "element": "Earth",
+      "dates": {
+        "start": "April 20",
+        "end": "May 20"
+      },
+      "funFacts": "Taurus is associated with stability and a love for the finer things in life.",
+      "description": "Taurus individuals are reliable and practical. They have a strong connection to the material world and are often associated with a love for beauty and luxury. Known for their unwavering determination and a methodical approach to life, Taurus signs are hardworking and persistent. They are deeply grounded and seek stability in all aspects of life. Taurus individuals have a strong sense of appreciation for art, music, and the finer things in life. Their dedication to their pursuits, combined with their appreciation for aesthetics, makes them excellent connoisseurs of beauty and comfort."
+    },
+    "gemini": {
+      "name": "Gemini",
+      "rulerPlanet": "Mercury",
+      "element": "Air",
+      "dates": {
+        "start": "May 21",
+        "end": "June 20"
+      },
+      "funFacts": "Gemini is the sign of the twins, symbolizing duality and adaptability.",
+      "description": "Gemini individuals are versatile and adaptable. They are known for their quick wit, communication skills, and love for intellectual pursuits. Gemini signs are natural communicators, often charming those they interact with. They have a dual nature, symbolized by the twins, which means they can easily switch between different perspectives and adapt to various situations. Gemini individuals thrive in environments that stimulate their curiosity and intellect. They are often drawn to a wide range of interests and enjoy exploring new ideas and cultures."
+    },
+    "cancer": {
+      "name": "Cancer",
+      "rulerPlanet": "Moon",
+      "element": "Water",
+      "dates": {
+        "start": "June 21",
+        "end": "July 22"
+      },
+      "funFacts": "Cancer is associated with deep emotions and a strong connection to family and home.",
+      "description": "Cancer individuals are nurturing and empathetic. They have a strong sense of loyalty and are deeply connected to their loved ones. Known for their emotional depth, Cancer signs are highly intuitive and often rely on their gut feelings to navigate life's challenges. They are protective of their family and friends and have a natural ability to provide emotional support. Cancer individuals find comfort and security in their home and often create warm and welcoming environments. Their emotional sensitivity and caring nature make them excellent caregivers and empathetic friends."
+    },
+    "leo": {
+      "name": "Leo",
+      "rulerPlanet": "Sun",
+      "element": "Fire",
+      "dates": {
+        "start": "July 23",
+        "end": "August 22"
+      },
+      "funFacts": "Leo is associated with the sun, symbolizing creativity and self-expression.",
+      "description": "Leo individuals are confident and charismatic. They are natural leaders and have a strong desire for recognition and success. Ruled by the Sun, Leo signs radiate warmth and energy, drawing others to their magnetic personalities. They are known for their creativity and love for self-expression through various art forms. Leos are natural performers and often thrive in the spotlight. Their strong sense of self-worth and leadership qualities make them influential figures in their personal and professional lives. Leos are generous and enjoy taking care of their loved ones, making them loyal and loving partners and friends."
+    },
+    "virgo": {
+      "name": "Virgo",
+      "rulerPlanet": "Mercury",
+      "element": "Earth",
+      "dates": {
+        "start": "August 23",
+        "end": "September 22"
+      },
+      "funFacts": "Virgo is known for its attention to detail and analytical nature.",
+      "description": "Virgo individuals are practical and organized. They have a keen eye for detail and a strong desire to help others. With a methodical approach to life, Virgo signs excel in tasks that require precision and attention to detail. They are natural problem-solvers and often find solutions that others might overlook. Virgos are compassionate and caring, always willing to lend a helping hand to those in need. Their analytical nature allows them to see the bigger picture and create order in chaotic situations. Virgos have a deep sense of responsibility and take their commitments seriously, making them dependable and reliable individuals."
+    },
+    "libra": {
+      "name": "Libra",
+      "rulerPlanet": "Venus",
+      "element": "Air",
+      "dates": {
+        "start": "September 23",
+        "end": "October 22"
+      },
+      "funFacts": "Libra is associated with balance and harmony, symbolized by the scales.",
+      "description": "Libra individuals are known for their love of beauty and harmony. They seek balance in all aspects of life and have a strong sense of justice. Ruled by Venus, the planet of love and beauty, Libras have a natural appreciation for aesthetics and the finer things in life. They have a strong sense of fairness and are often seen as peacemakers in conflicts. Libras are skilled at negotiation and compromise, seeking harmonious solutions to challenges. They value relationships and strive to create meaningful connections with others. Libra individuals are diplomatic and charming, making them pleasant companions and trusted advisors."
+    },
+    "scorpio": {
+      "name": "Scorpio",
+      "rulerPlanet": "Pluto and Mars",
+      "element": "Water",
+      "dates": {
+        "start": "October 23",
+        "end": "November 21"
+      },
+      "funFacts": "Scorpio is associated with intensity and transformation.",
+      "description": "Scorpio individuals are passionate and determined. They are known for their depth of emotions and a desire to uncover hidden truths. Ruled by Pluto and Mars, Scorpios possess intense energy and are unafraid of delving into the depths of their own psyche. They are often drawn to mysteries and seek to uncover the hidden aspects of life. Scorpios are fiercely loyal and protective of their loved ones, making them devoted friends and partners. Their determination and resilience allow them to overcome challenges and emerge stronger. Scorpio signs thrive in transformative situations and embrace change as an opportunity for personal growth."
+    },
+    "sagittarius": {
+      "name": "Sagittarius",
+      "rulerPlanet": "Jupiter",
+      "element": "Fire",
+      "dates": {
+        "start": "November 22",
+        "end": "December 21"
+      },
+      "funFacts": "Sagittarius is known for its love of adventure and a quest for knowledge.",
+      "description": "Sagittarius individuals are adventurous and optimistic. They have a strong desire for exploration and a love for learning. Ruled by Jupiter, the planet of expansion, Sagittarians have a broad perspective on life and a thirst for knowledge. They are natural explorers, often seeking new horizons and experiences. Sagittarians are known for their optimism and enthusiasm, making them inspiring and charismatic leaders. They value freedom and independence and are unafraid of taking risks to achieve their goals. Sagittarius signs are generous and often share their wisdom with others, encouraging personal and intellectual growth."
+    },
+    "capricorn": {
+      "name": "Capricorn",
+      "rulerPlanet": "Saturn",
+      "element": "Earth",
+      "dates": {
+        "start": "December 22",
+        "end": "January 19"
+      },
+      "funFacts": "Capricorn is associated with discipline and ambition.",
+      "description": "Capricorn individuals are disciplined and hardworking. They are often focused on achieving their goals and building a strong foundation for the future. Ruled by Saturn, the planet of structure and discipline, Capricorns have a strong work ethic and a deep sense of responsibility. They are determined to achieve their ambitions and often excel in their careers. Capricorns are known for their practicality and ability to plan for the long term. They value tradition and appreciate the importance of structure in their lives. Capricorn signs are loyal and reliable, making them trusted friends and partners."
+    },
+    "aquarius": {
+      "name": "Aquarius",
+      "rulerPlanet": "Uranus and Saturn",
+      "element": "Air",
+      "dates": {
+        "start": "January 20",
+        "end": "February 18"
+      },
+      "funFacts": "Aquarius is known for its unique and innovative approach to life.",
+      "description": "Aquarius individuals are independent and forward-thinking. They are often drawn to humanitarian causes and have a strong desire for change and progress. Ruled by Uranus and Saturn, Aquarians possess a unique and innovative approach to life. They are visionaries who seek to create a better world. Aquarius signs are known for their open-mindedness and their ability to think outside the box. They are often at the forefront of social and technological advancements. Aquarians value individuality and are unafraid to express their unique perspectives. They are dedicated to causes that promote equality and freedom, making them advocates for positive change."
+    },
+    "pisces": {
+      "name": "Pisces",
+      "rulerPlanet": "Neptune and Jupiter",
+      "element": "Water",
+      "dates": {
+        "start": "February 19",
+        "end": "March 20"
+      },
+      "funFacts": "Pisces is associated with intuition and empathy.",
+      "description": "Pisces individuals are compassionate and artistic. They have a deep connection to their emotions and are often creative and empathetic. Ruled by Neptune and Jupiter, Pisces have a strong connection to the spiritual and emotional realms. They possess a deep sense of intuition and often rely on their inner guidance. Pisces signs are highly empathetic and compassionate, often putting others' needs before their own. They are creative souls who find expression through art, music, and other forms of self-expression. Pisceans have a dreamy and imaginative nature, allowing them to see the beauty in the world. They are often drawn to helping others and making the world a better place."
+    }
+  }
+}
