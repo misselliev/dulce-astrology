@@ -4,8 +4,8 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom'; // Use useParams to access route parameters
 import { fetchSignInfo } from '../redux/signSlice';
 
-const SignInfo = ({ params }) => {
-  console.log(params);
+const SignInfo = () => {
+  // console.log(params);
   const dispatch = useDispatch();
   const { signParam } = useParams(); // Access route parameters
   const signData = useSelector((state) => state.sign.data);
@@ -44,14 +44,22 @@ const SignInfo = ({ params }) => {
               <div className="flex flex-col items-center text-center justify-center">
                 <h2 className="font-medium title-font mt-4 text-indigo-200 text-lg acpitalize">{signData?.name}</h2>
                 <div className="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
-                <p className="text-base">{signData?.rulerPlanet}</p>
-                <p className="text-base">{signData?.element}</p>
+                <ul>
+                  <li className="text-base text-indigo-400">
+                    <span>Ruler Planet: </span>
+                    <span>{signData?.rulerPlanet}</span>
+                  </li>
+                  <li className="text-base text-indigo-400">
+                    <span>Element: </span>
+                    <span>{signData?.element}</span>
+                  </li>
+                </ul>
               </div>
             </div>
             <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
-              <p className="leading-relaxed text-lg mb-4">{signData?.description}</p>
-              <a className="text-indigo-500 inline-flex items-center">
-                Learn More
+              <p className="leading-relaxed text-lg mb-4 text-white">{signData?.description}</p>
+              <a className="text-indigo-300 inline-flex items-center" href={`/horoscopes/${signData?.name}`}>
+                Get Your Daily Horoscope
                 <svg
                   fill="none"
                   stroke="currentColor"
