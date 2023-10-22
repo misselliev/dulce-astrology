@@ -23,7 +23,6 @@ const SignsHome = () => {
 
   const selectSign = (sign) => {
     dispatch(fetchSignInfo(sign));
-    console.log(`/signs/${sign}`);
     navigateTo(`/signs/${sign}`);
   };
 
@@ -50,10 +49,6 @@ const SignsHome = () => {
                   />
                 </div>
                 <h2 className="text-xl font-medium title-font text-indigo-500 capitalize mt-5">{item}</h2>
-                <p className="text-base leading-relaxed mt-2 text-white">
-                  Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard
-                  dreamcatcher neutra, ethical XOXO lumbersexual.
-                </p>
                 <a className="text-indigo-400 inline-flex items-center mt-3" onClick={() => selectSign(item)}>
                   Learn More
                   <svg
