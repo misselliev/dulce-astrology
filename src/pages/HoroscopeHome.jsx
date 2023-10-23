@@ -17,13 +17,13 @@ const signNames = [
   'pisces',
 ];
 
-const SignsHome = () => {
+const HoroscopeHome = () => {
   const dispatch = useDispatch();
   const navigateTo = useNavigate();
 
   const selectSign = (sign) => {
     dispatch(fetchSignInfo(sign));
-    navigateTo(`/signs/${sign}`);
+    navigateTo(`/horoscopes/${sign}`);
   };
 
   return (
@@ -31,10 +31,12 @@ const SignsHome = () => {
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col">
           <div className="h-1 bg-gray-200 rounded overflow-hidden">
-            <div className="w-24 h-full bg-indigo-500">Zodiac Signs</div>
+            <div className="w-24 h-full bg-indigo-500">Get Your Daily Horoscope</div>
           </div>
           <div className="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
-            <h1 className="sm:w-2/5 text-white font-bold title-font text-center text-2xl mb-2 sm:mb-0">Zodiac Signs</h1>
+            <h1 className="sm:w-2/5 text-white font-bold title-font text-center text-2xl mb-2 sm:mb-0">
+              Get Your Daily Horoscope
+            </h1>
           </div>
         </div>
         <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
@@ -71,4 +73,4 @@ const SignsHome = () => {
   );
 };
 
-export default SignsHome;
+export default HoroscopeHome;
