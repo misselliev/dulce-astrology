@@ -10,9 +10,9 @@ const Navigation = () => {
     <Routes>
       <Route exact path="/" element={<Home />} />
       <Route path="/signs" element={<SignsHome />} />
-      <Route path="/signs/*" element={<SignInfo />} />
+      {/* <Route path="/signs/*" element={<SignInfo />} /> */}
       <Route path="/horoscopes" element={<HoroscopeHome />} />
-      <Route path="/horoscopes/*" element={<DailyHoroscope />} />
+      {/* <Route path="/horoscopes/*" element={<DailyHoroscope />} /> */}
     </Routes>
   );
 };
